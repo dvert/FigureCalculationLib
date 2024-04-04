@@ -55,7 +55,7 @@ ON CP.CategoryId = C.Id;
 Резульат запроса:
 
 | Products | Categories |
-| -------- |:----------:|
+| -------- |------------|
 | Iphone   | Смартфоны  |
 | Huawei   | Смартфоны  |
 | Huawei   | Фото       |
