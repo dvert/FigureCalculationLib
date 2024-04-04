@@ -10,10 +10,10 @@ namespace FigureCalculationLibrary.Figures
         /// <param name="SideB">Second side</param>
         /// <param name="SideC">Third side</param>
         /// <param name="Sides">Array of sides</param>
-        public double SideA { get; init; }
-        public double SideB { get; init; }
-        public double SideC { get; init; }
-        public double [] Sides { get; init; }
+        public double SideA { get; private set; }
+        public double SideB { get; private set; }
+        public double SideC { get; private set; }
+        public double [] Sides { get; private set; }
 
         #endregion
 

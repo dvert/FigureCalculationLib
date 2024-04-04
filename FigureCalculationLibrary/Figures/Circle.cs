@@ -7,7 +7,7 @@ namespace FigureCalculationLibrary.Figures
         #region Properties
 
         /// <param name="Radius">Сircle radius</param>
-        public double Radius { get; init; }
+        public double Radius { get; private set; }
 
         #endregion
 
