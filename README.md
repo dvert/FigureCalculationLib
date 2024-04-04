@@ -40,3 +40,29 @@ public class Rectangle : IFigure
 ## SQL выборка с созданием БД
 
 Папка **SQLTask**
+
+Запрос:
+
+```SQL
+SELECT P.Name As 'Products', C.Name As 'Categories'
+FROM Products P
+LEFT JOIN CategoriesProducts CP
+ON P.Id = CP.ProductId
+LEFT JOIN Categories C
+ON CP.CategoryId = C.Id;
+```
+
+Резульат запроса:
+
+| Products | Categories |
+| -------- |:----------:|
+| Iphone   | Смартфоны  |
+| Huawei   | Смартфоны  |
+| Huawei   | Фото       |
+| Honor    | Компьютеры |
+| Honor    | Компьютеры |
+| Honor    | Фото       |
+| Samsung  | NULL       |
+| LG       | NULL       |
+
+
